@@ -1,4 +1,4 @@
-const getPersonajes = async (url) => {
+const getUser = async (url) => {
   try {
     const { data } = await axios.get(url);
     console.log(data);
@@ -9,4 +9,4 @@ const getPersonajes = async (url) => {
   }
 };
 
-export default getPersonajes;
+export default getUser;
