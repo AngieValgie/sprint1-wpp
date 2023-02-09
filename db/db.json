@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "userName": "Sailor Mars",
+      "phoneNumber": "3007316719",
+      "password": "holi",
+      "userPhoto": "https://codigoespagueti.com/wp-content/uploads/2023/02/sailor-moon-sailor-mars-cosplay.jpg",
+      "userPhrase": "Stop acting like such a fan girl",
+      "id": 1
+    },
+    {
+      "userName": "Serena",
+      "phoneNumber": "300734156",
+      "password": "niños",
+      "userPhoto": "https://pbs.twimg.com/profile_images/1059861679436120066/nT4mMLTt_400x400.jpg",
+      "userPhrase": "oh, I wish I could be a cat ",
+      "id": 2
+    },
+    {
+      "userName": "Ami Mizuno",
+      "phoneNumber": "3007389207",
+      "password": "lalland",
+      "userPhoto": "https://static.wikia.nocookie.net/sailormoon/images/a/ab/Ami-Mizuno.jpg/revision/latest/scale-to-width-down/250?cb=20130310052148&path-prefix=es",
+      "userPhrase": "the future is yours to create ",
+      "id": 3
+    },
+    {
+      "userName": "Sailor Mars",
+      "phoneNumber": "3007311674",
+      "password": "asx",
+      "userPhoto": "https://pbs.twimg.com/profile_images/1059861679436120066/nT4mMLTt_400x400.jpg",
+      "userPhrase": "the future is yours to create ",
+      "id": 4
+    },
+    {
+      "userName": "Sailor Mars",
+      "phoneNumber": "3007311674",
+      "password": "asx",
+      "userPhoto": "https://pbs.twimg.com/profile_images/1059861679436120066/nT4mMLTt_400x400.jpg",
+      "userPhrase": "the future is yours to create ",
+      "id": 5
+    }
+  ],
+  "messages": [
+    {
+      "idUser1": {
+        "sendBy ": "id",
+        "date": "02/02/2023",
+        "hour": "11:20",
+        "message": "holis",
+        "flagMessage": true
+      },
+      "idUser2": {
+        "sendBy ": "id",
+        "date": "02/02/2023",
+        "hour": "11:20",
+        "message": "holis",
+        "flagMessage": true
+      }
+    }
+  ]
+}

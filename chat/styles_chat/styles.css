@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Roboto:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(/img/bgjpg.png);
+}
+
+.imgPerson {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 40px;
+}
+
+#form {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(74, 74, 74, 0.29);
+}
+
+#headerChat {
+  height: 60px;
+  background-color: #f1f2f6;
+}
+
+/*# sourceMappingURL=styles.css.map */

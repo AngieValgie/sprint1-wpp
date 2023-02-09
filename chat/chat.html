@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whatsapp</title>
+    <link rel="icon" href="../img/wasa.png" />
+    <link rel="stylesheet" href="./styles_chat/chat.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
+      integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <aside id="contactList">
+        <header id="headerChat" class="headerChat">
+          <figure>
+            <img
+              class="imgPerson"
+              src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/11/sailor-moon-discos-30-aniversario.jpg?fit=1280%2C720&quality=80&ssl=1"
+              alt=""
+            />
+          </figure>
+          <form class="form__search">
+            <input
+              id="inputSearch"
+              type="text"
+              placeholder="Enter a pokemon name"
+            />
+            <button type="submit">
+              <img src="../img/search.svg" alt="" />
+            </button>
+          </form>
+        </header>
+      </aside>
+
+      <section>
+        <header id="headerChat" class="headerChat"></header>
+        <footer id="footerChat"></footer>
+      </section>
+    </main>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../scripts/chat.js" type="module"></script>
+  </body>
+</html>
