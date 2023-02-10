@@ -1,4 +1,4 @@
-const getUser = async (url) => {
+export const getUser = async (url) => {
   try {
     const { data } = await axios.get(url);
     console.log(data);
@@ -8,5 +8,3 @@ const getUser = async (url) => {
     return error;
   }
 };
-
-export default getUser;

@@ -1,7 +1,6 @@
 import { URL_USERS } from "../services/endpoints.js";
 import postUser from "../services/postPeople.js";
 
-console.log("zapa");
 const form = document.getElementById("form");
 const phoneNumber = document.getElementById("phoneNumber").value;
 const password = document.getElementById("password").value;
@@ -23,7 +22,8 @@ form.addEventListener("submit", async (event) => {
       Swal.fire({
         title: `The field ${key} is not completed, please fill in!`,
       });
-      //alert(`El campo ${key} no se encuentra diligenciado, por favor llénelo!`);
+    } else {
+      window.open("http://127.0.0.1:5500/chat/chat.html?");
     }
   }
   if (noEmpty) {

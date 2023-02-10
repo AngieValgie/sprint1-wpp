@@ -27,18 +27,26 @@
     {
       "userName": "Sailor Mars",
       "phoneNumber": "3007311674",
-      "password": "asx",
+      "password": "ysus",
       "userPhoto": "https://pbs.twimg.com/profile_images/1059861679436120066/nT4mMLTt_400x400.jpg",
       "userPhrase": "the future is yours to create ",
       "id": 4
     },
     {
       "userName": "Sailor Mars",
-      "phoneNumber": "3007311674",
+      "phoneNumber": "3007310417",
       "password": "asx",
       "userPhoto": "https://pbs.twimg.com/profile_images/1059861679436120066/nT4mMLTt_400x400.jpg",
       "userPhrase": "the future is yours to create ",
       "id": 5
+    },
+    {
+      "userName": "angie",
+      "phoneNumber": "300764832",
+      "password": "loksa",
+      "userPhoto": "https://static.wikia.nocookie.net/sailormoon/images/a/ab/Ami-Mizuno.jpg/revision/latest/scale-to-width-down/250?cb=20130310052148&path-prefix=es",
+      "userPhrase": "Stop acting like such a fan girl",
+      "id": 6
     }
   ],
   "messages": [

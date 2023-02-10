@@ -25,22 +25,66 @@
               alt=""
             />
           </figure>
-          <form class="form__search">
-            <input
-              id="inputSearch"
-              type="text"
-              placeholder="Enter a pokemon name"
-            />
-            <button type="submit">
-              <img src="../img/search.svg" alt="" />
-            </button>
+          <form id="form" class="form__search">
+            <div class="form__search--container">
+              <input
+                id="inputSearch"
+                class="inputSearch"
+                type="text"
+                placeholder="Search or start a new chat"
+              />
+              <button type="submit">
+                <img
+                  class="form__search--logo"
+                  src="../img/search.svg"
+                  alt=""
+                />
+              </button>
+            </div>
           </form>
         </header>
+        <ul id="chatList" class="chatList">
+          <li>
+            <div class="chatList__element">
+              <figure>
+                <img
+                  class="imgPerson"
+                  src="https://pbs.twimg.com/profile_images/1059861679436120066/nT4mMLTt_400x400.jpg"
+                  alt=""
+                />
+              </figure>
+              <div class="chatList__info">
+                <div class="chatList__text">
+                  <h4 class="chatList__name">Serena</h4>
+                  <p class="chatList__date">viernes</p>
+                </div>
+                <p class="chatList__message">oh, I wish I could be a cat</p>
+              </div>
+            </div>
+          </li>
+        </ul>
       </aside>
 
-      <section>
-        <header id="headerChat" class="headerChat"></header>
-        <footer id="footerChat"></footer>
+      <section class="chat">
+        <header id="headerChat" class="headerChat">
+          <div>
+            <img
+              class="imgPerson"
+              src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/11/sailor-moon-discos-30-aniversario.jpg?fit=1280%2C720&quality=80&ssl=1"
+              alt=""
+            />
+
+            <button type="submit">
+              <img class="form__search--logo" src="../img/search.svg" alt="" />
+            </button>
+          </div>
+        </header>
+
+        <div class="chatSection"></div>
+
+        <footer id="footerChat">
+          <input class="inputMessage" type="text" placeholder="Message..." />
+        </footer>
       </section>
     </main>
 

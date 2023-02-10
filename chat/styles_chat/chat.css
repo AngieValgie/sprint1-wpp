@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Roboto:wght@300;400;500&display=swap");
 * {
   margin: 0;
@@ -17,6 +18,12 @@ main {
   display: flex;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
 #contactList {
   height: 100vh;
   width: 30vw;
@@ -26,6 +33,7 @@ main {
 .imgPerson {
   width: 40px;
   height: 40px;
+  cursor: pointer;
   object-fit: cover;
   border-radius: 40px;
   object-position: center;
@@ -51,12 +59,7 @@ main {
   justify-content: center;
   flex-direction: row-reverse;
 }
-.form__search #inputSearch {
-  border: none;
-  background-color: transparent;
-}
-.form__search button {
-  cursor: pointer;
+.form__search .inputSearch {
   border: none;
   background-color: transparent;
 }
@@ -65,18 +68,101 @@ main {
   height: 18px;
 }
 
-section {
-  width: 70vw;
+/* lista de contactos */
+.chatList {
+  width: 100%;
 }
 
-#headerChat {
+.chatList__element {
   width: 100%;
-  height: 60px;
+  color: #87959e;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatList__element:hover {
+  background-color: #ededed;
+  cursor: pointer;
+}
+
+.chatList__info h4 {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.chatList__text {
+  width: 23vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chatList__name {
+  color: rgb(31, 31, 31);
+}
+
+.chatList__date {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.chatList__message {
+  font-size: 12px;
+}
+
+/* diseño del chat */
+.chat {
+  width: 70vw;
+}
+.chat .headerChat {
+  width: 100%;
+  height: 54px;
+  position: fixed;
   border-left: #87959e;
+  background-color: #f1f2f6;
+}
+.chat .headerChat figure {
+  background-color: #f1f2f6;
+}
+.chat .headerChat div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#footerChat {
+  width: 100%;
+  height: 54px;
+  bottom: 0;
+  position: fixed;
+  border-left: #87959e;
+  background-color: #f1f2f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputMessage {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
   background-color: #ededed;
 }
-#headerChat figure {
-  background-color: #ededed;
+
+@media (max-width: 815px) {
+  .chatList__text {
+    width: 80vw;
+  }
+  .chat {
+    display: none;
+  }
+  #contactList {
+    height: 100vh;
+    width: 100vw;
+  }
 }
 
 /*# sourceMappingURL=chat.css.map */
