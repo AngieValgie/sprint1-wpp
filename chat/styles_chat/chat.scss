@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Roboto:wght@300;400;500&display=swap");
 $withe: #ffffff;
 $gray: #f1f2f6;
+$grayy: #ededed;
 $darkGray: #87959e;
 $green: #dafcd1;
 $deepGreen: #2ad169;
@@ -9,39 +10,86 @@ $deepGreen: #2ad169;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  font-family: "Roboto", sans-serif;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-image: url(/img/bgjpg.png);
 }
 
-.imgPerson {
-  width: 45px;
-  height: 45px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 40px;
+main {
+  display: flex;
 }
 
-#form {
+#contactList {
+  height: 100vh;
+  width: 30vw;
+  background-color: $withe;
+}
+
+.imgPerson {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 40px;
+  object-position: center;
+
+  margin: 5px 10px;
+}
+
+.form__search {
   gap: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
 
-  padding: 30px;
-  border-radius: 5px;
-  box-shadow: 0 1px 4px rgba(74, 74, 74, 0.29);
+  padding: 14px;
+  background-color: $gray;
+
+  .form__search--container {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: $withe;
+
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+
+  #inputSearch {
+    border: none;
+    background-color: transparent;
+  }
+
+  button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+
+  .form__search--logo {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+section {
+  width: 70vw;
 }
 
 #headerChat {
+  width: 100%;
   height: 60px;
-  background-color: $gray;
+  border-left: $darkGray;
+  background-color: $grayy;
+
+  figure {
+    background-color: $grayy;
+  }
 }
